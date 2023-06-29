@@ -1,5 +1,6 @@
 let updateTimer = undefined;
 
+
 function LoadNews() {
     $("#content").html("");
     $("#content").load("./components/newsPosts.html");
